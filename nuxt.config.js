@@ -1,9 +1,5 @@
 
 export default {
-  mode: 'static',
-   router: {
-      base: '/your-github-repository-name/'
-   },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -13,7 +9,10 @@ export default {
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'server',
+  target: 'static',
+  router: {
+    base: '/portfolio/'
+  },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
@@ -91,9 +90,10 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    
   },
   server: {
-    port: process.env.PORT, // default: 3000
-    host: process.env.HOST, // default: localhost
+    // port: process.env.PORT, // default: 3000
+    // host: process.env.HOST, // default: localhost
   }
 }
