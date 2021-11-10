@@ -6,12 +6,12 @@
       <div class="order-1 lg:w-0 lg:flex-1">
       </div>
       <nav class="order-2 space-x-10">
-        <nuxt-link to="/" class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
+        <div class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
           <img
                 src="/images/cat.png"
                 class="object-cover w-10 mx-auto"
               />Mohamad Irvan Fajar Ali
-        </nuxt-link>
+        </div>
       </nav>
       <div class="relative flex items-center justify-center flex-1 order-2 w-0 px-3 space-x-8 md:justify-end md:px-0">
       </div>
@@ -19,7 +19,7 @@
   </div>
 
   <!-- Menu view on mobile -->
-  <transition name="menu">
+  <!-- <transition name="menu">
     <div v-show="open">
       <div class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
         <div class="rounded-lg shadow-lg">
@@ -63,7 +63,7 @@
         </div>
       </div>
     </div>
-  </transition>
+  </transition> -->
   <!-- end of mobile view menu -->
 </div>
 
